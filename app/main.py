@@ -10,7 +10,7 @@ with open("app/model.pkl", "rb") as f:
 
 @app.get("/")
 def home():
-    return {"message": "Iris ML API running"}
+    return {"message": "Iris ML API running v2x"}
 
 @app.post("/predict")
 def predict(data: dict):
